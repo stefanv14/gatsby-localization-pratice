@@ -1,0 +1,18 @@
+export default {
+  siteTitle: `Page three`,
+  hTitle: `About IT Business Bootcamp`,
+  bButton: `BACK TO HOMEPAGE`,
+  aboutLink: `About`,
+  h1Title: `Don’t miss this inspiring trip!`,
+  accTitle: `ACCOMMODATION`,
+  blogTitle1: `Find your inspiration to travel`,
+  headerBlogTitle: `BLOGS`,
+  btnBackToHome: `Back To Homepage`,
+  blogs: `Blogs`,
+  blogCategory1: `ALL POSTS`,
+  blogCategory2: `ENTREPRENEURS`,
+  blogCategory3: `TRAVELING STUDENTS`,
+  blogTitle5: `IT Business Bootcamp in a blog!`,
+  linkLabel: `Go back to the homepage`,
+  linkSlug: `/`,
+};

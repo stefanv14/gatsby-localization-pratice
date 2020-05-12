@@ -1,0 +1,18 @@
+export default {
+  siteTitle: `Bootcamp`,
+  hTitle: `O IT Business Bootcamp`,
+  bButton: `NAZAD NA POČETNU`,
+  aboutLink: `O nama`,
+  h1Title: `Ne propustite ovo putovanje!`,
+  accTitle: `SMEŠTAJ`,
+  blogTitle1: `Pronađite svoju inspiraciju za putovanja`,
+  headerBlogTitle: `BLOGOVI`,
+  btnBackToHome: `Nazad na početnu`,
+  blogs: `Blogovi`,
+  blogCategory1: `SVI POSTOVI`,
+  blogCategory2: `PREDUZETNICI`,
+  blogCategory3: `STUDENTI PUTOVANJA`,
+  blogTitle5: `Hejjjjj`,
+  linkLabel: `Gehe zurück zur Homepage`,
+  linkSlug: `/`,
+};

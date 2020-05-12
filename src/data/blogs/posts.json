@@ -1,0 +1,60 @@
+{
+  "pagesEN": [
+    {
+      "id": "blog-1",
+      "category": "ENTREPRENEUR",
+      "image": "blog-1.jpg",
+      "title": "IT Business Bootcamp in a blog!",
+      "body": "<br /><br /><Paragraph>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Paragraph><br /><br /><Paragraph>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</Paragraph>",
+      "date": "15 December 2019"
+    },
+    {
+      "id": "blog-2",
+      "category": "ENTREPRENEUR",
+      "image": "boot-1.jpg",
+      "title": "Testimonial Maaike Buitink",
+      "body": "<br /><br /><Paragraph>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Paragraph><br /><br /><Paragraph>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</Paragraph>",
+      "date": "22 October 2019"
+    },
+    {
+      "id": "blog-3",
+      "category": "STUDENT",
+      "image": "boot-3.jpg",
+      "title": "IT Business Bootcamp in the press!",
+      "body": "<br /><br /><Paragraph>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Paragraph><br /><br /><Paragraph>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</Paragraph>",
+      "date": "02 November 2019"
+    }
+  ],
+  "pagesSR": [
+    {
+      "id": "blog-1",
+      "linkSlug": "/sr/blog-1",
+      "category": "PREDUZETNIK",
+      "image": "blog-1.jpg",
+      "title": "IT Business Bootcamp in a blog!",
+      "body": "<br /><br /><Paragraph>Poznata je činjenica da će čitalac biti sputan pravim čitljivim tekstom na stranici kada gleda njen raspored. Poenta korišćenja Lorem Ipsum modela je manje-više iz razloga što je raspored slova i reči normalan, u poređenju sa Ovde ide tekst, ovde ide tekst, i čini stranicu kao čitljivi Engleski. Mnogi softverski paketi za prelom kao i veb editori, koriste Lorem Ipsum kao osnovan model teksta, i internet pretraga za frazom će dati mnogo sajtova u svom pred finalnom stanju. Razne verzije su evoluirale tokom godina, neke pukom slučajnošću, a neke namerno (ubacivavši humor u fraze).</Paragraph>",
+      "btn": "POGLEDAJ CEO POST ",
+      "date": "15 Decembar 2019"
+    },
+    {
+      "id": "blog-2",
+      "linkSlug": "/sr/blog-2",
+      "category": "PREDUZETNIK",
+      "image": "boot-1.jpg",
+      "title": "Testimonial Maaike Buitink",
+      "body": "<br /><br /><Paragraph>Nasuprot verovanju, Lorem Ipsum nije nasumično izabran i složen tekst. Njegovi koreni potiču u delu klasične Latinske književnosti od 45. godine pre nove ere, što ga čini starim preko 2000 godina. Richard McClintock, profesor latinskog na Hampden-Sydney koledžu u Virdžiniji, je potražio definiciju pomalo čudne reči consectetur iz Lorem Ipsum pasusa i analizirajući delove reči u klasičnoj književnosti otrkio autentičan izvor. Lorem Ipsum dolazi iz poglavlja 1.10.32 i 1.10.33 knjige de Finibus Bonorum et Malorum (Ekstremi Boga i Zla) koju je napisao Cicero 45. godine pre nove ere. Knjiga govori o teoriji etike, koja je bila vrlo popularna tokom Renesanse. Prva rečenica Lorem Ipsum modela Lorem ipsum dolor sit amet.., dolazi iz rečenice u poglavlju 1.10.32.</Paragraph>",
+      "btn": "POGLEDAJ CEO POST ",
+      "date": "22 Oktobar 2019"
+    },
+    {
+      "id": "blog-3",
+      "linkSlug": "/sr/blog-3",
+      "category": "STUDENT",
+      "image": "boot-3.jpg",
+      "title": "IT Business Bootcamp in the press!",
+      "body": "<br /><br />Postoji mnogo verzija i varijacija Lorem Ipsum pasusa, ali većina je pretrpela nekakvu promenu, bilo da je to dodavanje nekog humora ili nasumična respodela reči koja na kraju ne izgleda uverljivo. Ako planirate da koristite pasuse Lorem Ipsum modela, trebalo bi da budete sigurni da se u sredini teksta ne krije neka sakrivena ili sramotna poruka. Svi Lorem Ipsum generatori koji se mogu naći na Internetu su napravljeni da ponavljaju predhodno definisane delove, što čini ovaj generator prvim pravim na Internetu. On koristi rečnik od 200 latinskih reči koje su kombinovane sa podosta šablona rečenica kako bi generisao Lorem Ipsum koji izgleda uverljivo. To znači da ovde generisani Lorem Ipsum ne sadrži ponavljanje, nema ubačen humor ili neke neočekivane reči i tako dalje.",
+      "btn": "POGLEDAJ CEO POST ",
+      "date": "02 Novembar 2019"
+    }
+  ]
+}
