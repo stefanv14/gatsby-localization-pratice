@@ -147,7 +147,7 @@ const SignUpForm = ({ text64,
                       text78,
                       text79 
                     }) => {
-    const Inv = document.getElementsByClassName("Invisible");
+    // const document.getElementsByClassName("Invisible") = document.getElementsByClassName("Invisible");
     const reFirstName =new RegExp('[A-Z][a-z]{2,13}');
     const reLastName =new RegExp('[A-Z][a-z]{2,13}');
     const reEmail = new RegExp('\\w+([\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,4})+');
@@ -180,18 +180,18 @@ const SignUpForm = ({ text64,
         // const reCountry =new RegExp('[a-zA-Z]{2,}');
         if(country!==""){
             if(reCountry.test(country)){
-                Inv[7].style.display = "none";
+                document.getElementsByClassName("Invisible")[7].style.display = "none";
                 countryID.style.border=colorGreen;
                 countryID.style.background=backgroundGreen;
             }
             else{
-                Inv[7].style.display = "block";
+                document.getElementsByClassName("Invisible")[7].style.display = "block";
                 countryID.style.border=colorRed;
                 countryID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[7].style.display = "none";
+            document.getElementsByClassName("Invisible")[7].style.display = "none";
             countryID.style.border=colorGray;
             countryID.style.background=transparent;
         }
@@ -202,18 +202,18 @@ const SignUpForm = ({ text64,
         // const reZipCode =new RegExp('(?:[^\\d]|^)(\\d{5}\\-\\d{4})(?:[^\\d]|$)');
         if(zipCode!==""){
             if(reZipCode.test(zipCode)){
-                Inv[6].style.display = "none";
+                document.getElementsByClassName("Invisible")[6].style.display = "none";
                 zipCodeID.style.border=colorGreen;
                 zipCodeID.style.background=backgroundGreen;
             }
             else{
-                Inv[6].style.display = "block";
+                document.getElementsByClassName("Invisible")[6].style.display = "block";
                 zipCodeID.style.border=colorRed;
                 zipCodeID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[6].style.display = "none";
+            document.getElementsByClassName("Invisible")[6].style.display = "none";
             zipCodeID.style.border=colorGray;
             zipCodeID.style.background=transparent;
         }
@@ -224,18 +224,18 @@ const SignUpForm = ({ text64,
         // const reCity =new RegExp('[a-zA-Z]+(?:[\\s-][a-zA-Z]+)*');
         if(city!==""){
             if(reCity.test(city)){
-                Inv[5].style.display = "none";
+                document.getElementsByClassName("Invisible")[5].style.display = "none";
                 cityID.style.border=colorGreen;
                 cityID.style.background=backgroundGreen;
             }
             else{
-                Inv[5].style.display = "block";
+                document.getElementsByClassName("Invisible")[5].style.display = "block";
                 cityID.style.border=colorRed;
                 cityID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[5].style.display = "none";
+            document.getElementsByClassName("Invisible")[5].style.display = "none";
             cityID.style.border=colorGray;
             cityID.style.background=transparent;
         }
@@ -246,18 +246,18 @@ const SignUpForm = ({ text64,
         // const reAddress =new RegExp('\\d+\\s[A-z]+\\s[A-z]+');
         if(address!==""){
             if(reAddress.test(address)){
-                Inv[4].style.display = "none";
+                document.getElementsByClassName("Invisible")[4].style.display = "none";
                 addressID.style.border=colorGreen;
                 addressID.style.background=backgroundGreen;
             }
             else{
-                Inv[4].style.display = "block";
+                document.getElementsByClassName("Invisible")[4].style.display = "block";
                 addressID.style.border=colorRed;
                 addressID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[4].style.display = "none";
+            document.getElementsByClassName("Invisible")[4].style.display = "none";
             addressID.style.border=colorGray;
             addressID.style.background=transparent;
         }
@@ -268,18 +268,18 @@ const SignUpForm = ({ text64,
         // const reEmail = new RegExp('\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,4})+');
         if(email!==""){
             if(reEmail.test(email)){
-                Inv[2].style.display = "none";
+                document.getElementsByClassName("Invisible")[2].style.display = "none";
                 emailID.style.border=colorGreen;
                 emailID.style.background=backgroundGreen;
             }
             else{
-                Inv[2].style.display = "block";
+                document.getElementsByClassName("Invisible")[2].style.display = "block";
                 emailID.style.border=colorRed;
                 emailID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[2].style.display = "none";
+            document.getElementsByClassName("Invisible")[2].style.display = "none";
             emailID.style.border=colorGray;
             emailID.style.background=transparent;
         }
@@ -290,18 +290,18 @@ const SignUpForm = ({ text64,
         // const reBirth =new RegExp('([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}');
         if(birth!==""){
             if(reBirth.test(birth)){
-                Inv[3].style.display = "none";
+                document.getElementsByClassName("Invisible")[3].style.display = "none";
                 birthID.style.border=colorGreen;
                 birthID.style.background=backgroundGreen;
             }
             else{
-                Inv[3].style.display = "block";
+                document.getElementsByClassName("Invisible")[3].style.display = "block";
                 birthID.style.border=colorRed;
                 birthID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[3].style.display = "none";
+            document.getElementsByClassName("Invisible")[3].style.display = "none";
             birthID.style.border=colorGray;
             birthID.style.background=transparent;
         }
@@ -312,18 +312,18 @@ const SignUpForm = ({ text64,
         // const reFirstName = new RegExp('[A-Z][a-z]{2,13}');
         if(fName!==""){
             if(reFirstName.test(e.target.value)){
-                Inv[0].style.display = "none";
+                document.getElementsByClassName("Invisible")[0].style.display = "none";
                 fNameID.style.border=colorGreen;
                 fNameID.style.background=backgroundGreen;
             }
             else{
-                Inv[0].style.display = "block";
+                document.getElementsByClassName("Invisible")[0].style.display = "block";
                 fNameID.style.border=colorRed;
                 fNameID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[0].style.display = "none";
+            document.getElementsByClassName("Invisible")[0].style.display = "none";
             fNameID.style.border=colorGray;
             fNameID.style.background=transparent;
         }
@@ -336,18 +336,18 @@ const SignUpForm = ({ text64,
         if(lName!==""){
             if(reLastName.test(e.target.value)){
 
-                Inv[1].style.display = "none";
+                document.getElementsByClassName("Invisible")[1].style.display = "none";
                 lNameID.style.border=colorGreen;
                 lNameID.style.background=backgroundGreen;
             }
             else{
-                Inv[1].style.display = "block";
+                document.getElementsByClassName("Invisible")[1].style.display = "block";
                 lNameID.style.border=colorRed;
                 lNameID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[1].style.display = "none";
+            document.getElementsByClassName("Invisible")[1].style.display = "none";
             lNameID.style.border=colorGray;
             lNameID.style.background=transparent;
         }
@@ -398,132 +398,132 @@ const SignUpForm = ({ text64,
         
         if(reFirstName.test(fName)){
             okArr.push({"fName": fName});
-            Inv[0].style.display = "none";
+            document.getElementsByClassName("Invisible")[0].style.display = "none";
             fNameID.style.border=colorGreen;
             fNameID.style.background=backgroundColor;
         }
         else{
             errArr.push(fNameMsg);
-            Inv[0].style.display = "block";
+            document.getElementsByClassName("Invisible")[0].style.display = "block";
             fNameID.style.border=colorRed;
             fNameID.style.background=backgroundRed;
         }
         if(reLastName.test(lName)){
             okArr.push({"lName": lName});
-            Inv[1].style.display = "none";
+            document.getElementsByClassName("Invisible")[1].style.display = "none";
             lNameID.style.border=colorGreen;
             lNameID.style.background=backgroundColor;
         }
         else{
             errArr.push(lNameMsg);
-            Inv[1].style.display = "block";
+            document.getElementsByClassName("Invisible")[1].style.display = "block";
             lNameID.style.border=colorRed;
             lNameID.style.background=backgroundRed;
         }
         if(email !== "") {
             if(reEmail.test(email)){
                 okArr.push({"email": email});
-                Inv[2].style.display = "none";
+                document.getElementsByClassName("Invisible")[2].style.display = "none";
                 emailID.style.border=colorGreen;
                 emailID.style.background=backgroundColor;
             }else {
                 errArr.push(emailMsg);
-                Inv[2].style.display = "block";
+                document.getElementsByClassName("Invisible")[2].style.display = "block";
                 emailID.style.border=colorRed;
                 emailID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[2].style.display = "none";
+            document.getElementsByClassName("Invisible")[2].style.display = "none";
         }
         if(birth !== "") {
             if(reBirth.test(birth)){
                 okArr.push({"birth": birth});
-                Inv[3].style.display = "none";
+                document.getElementsByClassName("Invisible")[3].style.display = "none";
                 birthID.style.border=colorGreen;
                 birthID.style.background=backgroundColor;
             }
             else{
                 errArr.push(birthMsg);
-                Inv[3].style.display = "block";
+                document.getElementsByClassName("Invisible")[3].style.display = "block";
                 birthID.style.border=colorRed;
                 birthID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[3].style.display = "none";
+            document.getElementsByClassName("Invisible")[3].style.display = "none";
         }
         if(address !== "") {
             if(reAddress.test(address)){
                 okArr.push({"address": address});
-                Inv[4].innerHTML = "";
+                document.getElementsByClassName("Invisible")[4].innerHTML = "";
                 addressID.style.border=colorGreen;
                 addressID.style.background=backgroundColor;
             }
             else{
                 errArr.push(addressMsg);
-                Inv[4].style.display = "block";
+                document.getElementsByClassName("Invisible")[4].style.display = "block";
                 addressID.style.border=colorRed;
                 addressID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[4].style.display = "none";
+            document.getElementsByClassName("Invisible")[4].style.display = "none";
         }
         if(city !== "") {
             if(reCity.test(city)){
                 okArr.push({"city": city});
-                Inv[5].style.display = "none";
+                document.getElementsByClassName("Invisible")[5].style.display = "none";
                 cityID.style.border=colorGreen;
                 cityID.style.background=backgroundColor;
             }
             else{
                 errArr.push(cityMsg);
-                Inv[5].style.display = "block";
+                document.getElementsByClassName("Invisible")[5].style.display = "block";
                 cityID.style.border=colorRed;
                 cityID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[5].style.display = "none";
+            document.getElementsByClassName("Invisible")[5].style.display = "none";
         }
         if(zipCode !== "") {
             if(reZipCode.test(zipCode)){
                 okArr.push({"zipCode": zipCode});
-                Inv[6].style.display = "none";
+                document.getElementsByClassName("Invisible")[6].style.display = "none";
                 zipCodeID.style.border=colorGreen;
                 zipCodeID.style.background=backgroundColor;
             }else {
                 errArr.push(zipCodeMsg);
-                Inv[6].style.display = "block";
+                document.getElementsByClassName("Invisible")[6].style.display = "block";
                 zipCodeID.style.border=colorRed;
                 zipCodeID.style.background=backgroundRed;
             }
         }
         else{
-            Inv[6].style.display = "none";
+            document.getElementsByClassName("Invisible")[6].style.display = "none";
         }
         if(reCountry.test(country)){
             okArr.push({"country": country});
-            Inv[7].style.display = "none";
+            document.getElementsByClassName("Invisible")[7].style.display = "none";
             countryID.style.border=colorGreen;
             countryID.style.background=backgroundColor;
         }
         else{
             errArr.push(countryMsg);
-            Inv[7].style.display = "block";
+            document.getElementsByClassName("Invisible")[7].style.display = "block";
             countryID.style.border=colorRed;
             countryID.style.background=backgroundRed;
         }
             if(reTel.test(tel)){
                 okArr.push({"tel": tel});
-                Inv[8].style.display = "none";
+                document.getElementsByClassName("Invisible")[8].style.display = "none";
                 formControl[0].style.border=colorGreen;
                 formControl[0].style.background=backgroundColor;
             }
             else{
                 errArr.push(telephoneMsg);
-                Inv[8].style.display = "block";
+                document.getElementsByClassName("Invisible")[8].style.display = "block";
                 formControl[0].style.border=colorRed;
                 formControl[0].style.background=backgroundRed;
             }
@@ -533,12 +533,12 @@ const SignUpForm = ({ text64,
             okArr.push({"selectList": selectList});
             selectListID.style.border=colorGreen;
             selectListID.style.background=backgroundColor;
-            Inv[9].style.display = "none";
+            document.getElementsByClassName("Invisible")[9].style.display = "none";
         }
         else{
             console.log('error');
             errArr.push("blabalbalb");
-            Inv[9].style.display = "block";
+            document.getElementsByClassName("Invisible")[9].style.display = "block";
             selectListID.style.background = backgroundRed;
             selectListID.style.border=colorRed;
         }
